@@ -1,0 +1,486 @@
+.responsive-menu-icon {
+	position: absolute;
+	width: 3.5rem;
+	height: 2.75rem;
+	display: none;
+	top: 2rem;
+	right: 0rem;
+	cursor: pointer;
+	z-index: 99999;
+}
+
+.responsive-menu {
+	position: fixed;
+	width: 60%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	padding: 3.3rem 5%;
+	z-index: 9999999;
+	background: #FFF;
+	display: none;
+	border-right: 0.1rem solid rgba(0, 0, 0, 0.1);
+}
+
+.responsive-menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.responsive-menu ul li {
+	position: relative;
+	width: 100%;
+	text-align: left;
+	margin-bottom: 1rem;
+}
+
+.responsive-menu ul li a {
+	font-size: 2.6rem;
+	font-weight: 500;
+	text-decoration: none;
+	color: #003C5E;
+	font-family: 'Sorts Mill Goudy', Georgia, Times, serif !important;
+}
+
+.responsive-menu li ul {
+	margin: 1.5rem;
+	display: none;
+}
+
+.responsive-menu li.menu-item-has-children {
+	background: url('../images/arrow.png') right 0.8rem no-repeat;
+	cursor: pointer;
+}
+
+.responsive-menu li.menu-item-has-children a:after {
+	display: none;
+}
+
+.responsive-menu li ul li {
+	margin-bottom: 0.2rem;
+}
+
+.responsive-menu li ul li a {
+	font-size: 2.0rem;
+	text-decoration: none;
+}
+
+.resp-logo {
+	position: relative;
+	width: 100%;
+	height: auto;
+	text-align: left;
+	margin-bottom: 3rem;
+	color: #fdfaf5;
+	font-size: 4rem;
+	font-family: 'Source Sans Pro';
+	text-transform: uppercase;
+}
+
+.resp-logo img {
+	width: 80%;
+	height: auto;
+	margin-right: 20%;
+}
+
+.responsive-menu form.gsc-search-box,
+.responsive-menu table.gsc-search-box {
+	margin-bottom: 0px !important;
+	max-width: 300px;
+}
+
+.responsive-menu .gsc-search-box .gsc-input {
+	margin: 0;
+	padding: 0px 4px 0px 6px !important;
+	border: none;
+}
+
+.responsive-menu #gsc-iw-id1 {
+	height: auto !important;
+	padding: 0px !important;
+	border-width: 0px !important;
+	box-shadow: none !important;
+}
+
+.responsive-menu #gs_tti50 {
+	padding: 0px !important;
+	border: none;
+}
+
+.responsive-menu #gsc-i-id1 {
+	height: 33px !important;
+	padding: 0px !important;
+	background: none !important;
+	text-indent: 0px !important;
+}
+
+.responsive-menu .gsib_b {
+	display: none;
+}
+
+.responsive-menu button.gsc-search-button {
+	display: block;
+	width: 13px !important;
+	height: 13px !important;
+	border-width: 0px !important;
+	margin: 0px !important;
+	padding: 10px 6px 10px 13px !important;
+	outline: none;
+	cursor: pointer;
+	box-shadow: none !important;
+	box-sizing: content-box !important;
+}
+
+.responsive-menu .gsc-branding {
+	display: none !important;
+}
+
+.responsive-menu .gsc-control-cse, .responsive-menu #gsc-iw-id1 {
+	background-color: transparent !important;
+}
+
+@media all and (max-width: 1220px) {
+
+	.wrapper {
+		max-width: 1024px;
+	}
+
+	.sidebar img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	.main-content .content .features .teaser h1 {
+		font-size: 2.1rem;
+		line-height: 2.8rem;
+		margin-bottom: 1.5rem;
+	}
+
+	.main-content .content .features .teaser .date {
+		padding-bottom: 1rem;
+	}
+
+	.main-content .content .articles article h2 {
+		width: 75.5%;
+	}
+
+	.main-content .content .articles article .comments {
+		width: 21%;
+	}
+
+}
+
+@media all and (max-width: 1024px) {
+
+	.wrapper {
+		max-width: 768px;
+	}
+
+	.home .main-content .content {
+		padding: 0;
+	}
+
+	.single .main-content .content {
+		padding: 0;
+	}
+
+	.header .wrapper .container {
+		width: calc(100% - 5rem);
+		margin: 0 2.5rem;
+	}
+
+	.header .logo {
+		margin-bottom: 2.5rem;
+	}
+
+	.header .logo img {
+		width: 70%;
+		height: auto;
+		margin: 0 15%;
+	}
+
+	.header .main-menu {
+		display: none;
+	}
+
+	.responsive-menu-icon {
+		display: block;
+	}
+
+	.responsive-menu-icon:before {
+		position: absolute;
+		width: 3.5rem;
+		height: 0.4rem;
+		left: 0;
+		content: "";
+		background: #dccf8a;
+		box-shadow: 0 0.9rem 0 0 #dccf8a, 0 1.8rem 0 0 #dccf8a;
+	}
+
+	.main-content .content {
+		width: calc(100% - 5rem);
+		margin: 0 2.5rem;
+	}
+
+	.the-content img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	.wp-caption {
+		max-width: 100%;
+	}
+
+	.main-content .sidebar {
+		width: calc(100% - 5rem);
+		margin: 0 2.5rem;
+	}
+
+	.main-content #custom_html-4 {
+		width: 100%;
+		height: auto;
+		margin-right: 0;
+	}
+
+	.main-content #custom_html-4 img {
+		width: 54px;
+		height: 54px;
+	}
+
+	.main-content .sidebar .widget:first-child {
+		margin-top: 3rem;
+	}
+
+	.main-content .sidebar .widget_text {
+		width: calc(33.33% - 2rem);
+		margin-right: 2rem;
+		float: left;
+	}
+
+	#text-27 {
+		width: 100%;
+	}
+
+	.main-content .sidebar .widget_text img {
+		width: 100%;
+		height: auto;
+	}
+
+}
+
+@media all and (max-width: 1024px) and (min-width: 769px) {
+
+	.main-content .sidebar .widget_text:nth-child(3n+4) {
+		margin-right: 0;
+	}
+
+	.main-content .sidebar .widget_text:nth-child(3n+5) {
+		clear: both;
+	}
+
+}
+
+@media all and (max-width: 768px) {
+
+	.header .logo {
+		text-align: left;
+	}
+
+	.header .logo img {
+		margin: 0;
+		text-align: left;
+	}
+
+	.main-content .content .features article {
+		display: block;
+	}
+
+	.main-content .content .features .image {
+		width: 100%;
+		overflow: hidden;
+	}
+
+	.main-content .content .features .image img {
+		width: 101%;
+	}
+
+	.main-content .content .features .teaser {
+		width: calc(100% - 4rem);
+		height: 177px;
+		display: table;
+	}
+
+	.main-content .content .features .teaser-inner {
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+	.main-content .content .article-selector a {
+		padding: 1.25rem 1.25rem;
+		font-size: 1.2rem;
+	}
+
+	.main-content .content .articles article h2 {
+		width: 62%;
+		font-size: 1.8rem;
+	}
+
+	.main-content .content .articles article h2 small {
+		width: 100%;
+	}
+
+	.main-content .content .articles article .comments {
+		width: 35%;
+	}
+
+	.main-content .content .articles date {
+		font-size: 1.6rem;
+	}
+
+	.main-content .content .articles article {
+		margin-bottom: 3rem;
+	}
+
+	.main-content .content .articles date {
+		margin: 1.75rem 0;
+	}
+
+	.main-content .sidebar .widget_text {
+		width: calc(50% - 2rem);
+		height: auto;
+	}
+
+	.sidebar img {
+		max-width: 232px;
+	}
+
+	.main-content .sidebar .widget_text:nth-child(2n+3) {
+		clear: both;
+	}
+
+	.page article .the-content ul {
+		margin: 0 2rem 3rem;
+	}
+
+	.archives-page .author-archives li {
+		margin-bottom: 0.5rem;
+		width: auto;
+		float: left;
+	}
+
+	.archives-page .author-archives li:after {
+		content: ", ";
+		margin-right: 0.25rem;
+	}
+
+	.archives-page .author-archives li:last-child:after {
+		display: none;
+	}
+
+	.video-wrapper {
+		position: relative;
+		padding-bottom: 56.25%; /* 16:9 */
+		padding-top: 2.5rem;
+		height: 0;
+	}
+
+	.video-wrapper iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	.page-id-19981 .the-content p img {
+		width: 100%;
+		height: auto;
+	}
+
+	.wpcf7-form .field.name,
+	.wpcf7-form .field.email {
+		width: calc(100%);
+		float: left;
+		margin-right: 0;
+	}
+
+}
+
+@media all and (max-width: 667px) and (min-width: 320px) {
+
+	.wpcf7-form input,
+	.wpcf7-form textarea {
+		padding-left: 10px;
+		padding-right: 10px;
+		font-size: 16px;
+		line-height: 1.3em;
+		-webkit-appearance: none;
+	}
+
+	.wpcf7-form input.wpcf7-submit {
+		font-size: 1.5em;
+	}
+
+}
+
+@media all and (max-width: 539px) {
+
+	.main-content .sidebar .widget_text {
+		width: 100%;
+		height: auto;
+		margin-right: 0;
+		float: left;
+	}
+
+}
+
+@media all and (max-width: 479px) {
+
+	.header .logo img {
+		margin-top: 0.5rem;
+	}
+
+	.main-content .content .articles article h2 {
+		width: 100%;
+		font-size: 1.8rem;
+	}
+
+	.main-content .content .articles article .comments {
+		width: 100%;
+		margin: 0.75rem 0;
+		text-align: left;
+	}
+
+	.main-content .content .article-selector {
+		text-align: center;
+		display: inline-block;
+	}
+
+	.main-content .content .article-selector a {
+		padding: 1.5rem;
+		font-size: 1.4rem;
+		text-align: center;
+		display: inline-block;
+		float: none;
+	}
+
+	.footer .widget {
+		width: calc(100%);
+		margin-right: 0;
+		margin-bottom: 3rem;
+	}
+
+	.footer .widget:last-child {
+		margin-bottom: 0;
+	}
+
+}
+
+@media all and (max-width: 359px) {
+
+	.main-content .content .features .teaser {
+		height: 195px;
+	}
+
+}
