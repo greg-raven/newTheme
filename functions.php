@@ -206,7 +206,3 @@ function amren_algolia_settings( $settings ) {
     return $settings;
 }
 add_filter( 'algolia_searchable_posts_index_settings', 'amren_algolia_settings', 10, 1 );
-
-// What changed: title-tag and thumbnails, ACF helper, menus registered once, widgets no longer forced hidden, scripts in footer with versions/deps, optional enqueue of ar-main.css / ar-responsive.css, banner can come from ACF later. If those extra CSS files are already pulled in by @import inside style.css, remove the extra wp_enqueue_style lines so you don’t load them twice.
-
-
