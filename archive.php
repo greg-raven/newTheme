@@ -4,17 +4,16 @@
         <div class="container">
             <div class="content">
                 <div class="articles archive">
-                    <?php
-                    $heading = single_term_title( '', false );
-                    if ( ! $heading ) {
-                        $heading = get_the_archive_title();
-                    }
-                    if ( is_paged() ) {
-                        $heading .= ' | Page ' . (int) get_query_var( 'paged' );
-                    }
-                    ?>
-                    <h1 class="title"><?php echo wp_kses_post( $heading ); ?></h1>
-                    <div class="articles-container">
+					<?php
+					$heading = single_term_title( '', false );
+					if ( ! $heading ) {
+						$heading = wp_strip_all_tags( get_the_archive_title() );
+					}
+					if ( is_paged() ) {
+						$heading .= ' | Page ' . (int) get_query_var( 'paged' );
+					}
+					?>
+					<h1 class="title"><span>Archive | </span><?php echo esc_html( $heading ); ?></h1>                    <div class="articles-container">
                         <?php
                         $date = '';
 
