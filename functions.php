@@ -69,7 +69,7 @@ add_action(
                 $query->set( 'category__not_in', array( 90 ) );
             }
 
-            $query->set( 'posts_per_page', wp_is_mobile() ? 5 : 15 );
+            $query->set( 'posts_per_page', wp_is_mobile() ? 5 : 40 );
             $query->set( 'ignore_sticky_posts', true );
             $query->set( 'no_found_rows', true );
         }
