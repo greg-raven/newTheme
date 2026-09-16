@@ -60,7 +60,6 @@ get_header();
 		<article class="commentary-features" itemtype="http://schema.org/Article">
 			<div class="ais-hits--content">
 				<div class="title">
-					<# console.log( data ); #>
 					<# const highlightedTitle = htmlDecode( data._highlightResult.post_title.value ); #>
 					<h2 class="title" itemprop="name headline"><a href="{{ data.permalink }}" title="{{ data.post_title }}" class="ais-hits--title-link" itemprop="url">{{{ highlightedTitle }}}</a></h2>
 					<div class="commentary the-date">{{ data.post_date_formatted }}</div>
