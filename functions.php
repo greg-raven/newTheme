@@ -62,7 +62,7 @@ add_action(
         }
 
         if ( $query->is_home() ) {
-            $exclude = get_category_by_slug( 'uncategorized' );
+            $exclude = get_category_by_slug( 'features' );
             if ( $exclude && ! is_wp_error( $exclude ) ) {
                 $query->set( 'category__not_in', array( (int) $exclude->term_id ) );
             } else {
