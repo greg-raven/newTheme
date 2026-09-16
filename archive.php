@@ -4,7 +4,7 @@
         <div class="container">
             <div class="content">
                 <div class="articles archive">
-					<?php
+                    <?php
 					$heading = single_term_title( '', false );
 					if ( ! $heading ) {
 						$heading = wp_strip_all_tags( get_the_archive_title() );
@@ -13,7 +13,8 @@
 						$heading .= ' | Page ' . (int) get_query_var( 'paged' );
 					}
 					?>
-					<h1 class="title"><span>Archive | </span><?php echo esc_html( $heading ); ?></h1>                    <div class="articles-container">
+					<h1 class="title"><span>Archive | </span><?php echo esc_html( $heading ); ?></h1>
+                    <div class="articles-container">
                         <?php
                         $date = '';
 
