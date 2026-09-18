@@ -29,11 +29,11 @@
 }
 
 .lds-gear > div {
-	-webkit-transform-origin: 100px 100px;
-	transform-origin: 100px 100px;
 	-webkit-animation: lds-gear 4s infinite linear;
+	-webkit-transform-origin: 100px 100px;
 	animation: lds-gear 4s infinite linear;
 	position: relative;
+	transform-origin: 100px 100px;
 }
 
 .lds-gear > div div {
