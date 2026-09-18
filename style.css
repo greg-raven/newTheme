@@ -3282,3 +3282,23 @@ input.gsc-search-button {
     position: relative;
     z-index: 1;
 }
+
+@media all and (max-width: 1220px) {
+    .header .twelve.columns.main-menu {
+        display: flex !important;
+    }
+
+    .responsive-menu-icon {
+        display: none !important;
+    }
+}
+
+@media all and (max-width: 1024px) {
+    .header .twelve.columns.main-menu {
+        display: none !important;
+    }
+
+    .responsive-menu-icon {
+        display: block !important;
+    }
+}
