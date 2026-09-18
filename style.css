@@ -1785,9 +1785,9 @@ th { text-align: left; }
 	float: right;
 	font-size: 1.4rem;
 	font-style: italic;
+	margin: 0.25rem 0 0 0;
 	text-decoration: none;
 	text-transform: uppercase;
-	margin: 0.25rem 0 0 0;
 }
 
 .single .post-author .profile-content { font-size: 1.5rem; }
@@ -1801,10 +1801,10 @@ th { text-align: left; }
 
 .single .post-entries
 {
-	padding: 1.5rem;
+	background: #e5e5e5;
 	font-size: 1.4rem;
 	margin-bottom: 3rem;
-	background: #e5e5e5;
+	padding: 1.5rem;
 	text-transform: uppercase;
 }
 
