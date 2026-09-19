@@ -2,8 +2,8 @@
 /**
  * Template Name: Archives Page
  */
-get_header();
-?>
+get_header(); ?>
+
 <div class="container main-content archives-page">
     <div class="wrapper">
         <div class="container">
@@ -59,4 +59,5 @@ get_header();
         </div>
     </div>
 </div>
+
 <?php get_footer(); ?>

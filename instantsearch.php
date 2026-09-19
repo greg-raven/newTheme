@@ -9,9 +9,8 @@
  * @package WebDevStudios\WPSWA
  */
 
-get_header();
+get_header(); ?>
 
-?>
 <div class="wrapper ais-container main-content">
 	<div id="ais-wrapper">
 		<main id="ais-main" class="content">
@@ -260,6 +259,5 @@ get_header();
 		});
 	</script>
 </div>
-<?php
 
-get_footer();
+<?php get_footer(); ?>

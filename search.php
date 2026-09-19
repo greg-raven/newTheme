@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+
 <div class="container main-content search">
     <div class="wrapper">
         <div class="container">
@@ -42,4 +43,5 @@
         </div>
     </div>
 </div>
+
 <?php get_footer(); ?>
